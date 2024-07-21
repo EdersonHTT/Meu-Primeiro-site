@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+}
+
+header, footer{
+    background-color: black;
+    color: white;
+    width: 98,9vw;
+    height: 20vh;
+    clear: both;
+}
+
+header{
+    text-align: center;
+
+}
+
+header nav ul{
+    list-style: none;
+    
+}
+
+aside ul{
+    list-style: none;
+    list-style-position: no;
+}
+
+aside{
+    background-color: violet;
+    width: 20%;
+    height: 80vh;
+    float: left;
+    display: inline;
+}
+
+main{
+    width: 80%;
+    height: 80vh;
+    float: left;
+    display: inline;
+}
+
+footer{
+    height: 10vh;
+}
