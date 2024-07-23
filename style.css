@@ -23,6 +23,7 @@ header{
 
 
 header h1{
+    white-space: nowrap;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 250%;
@@ -106,7 +107,7 @@ aside ul{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 60%;
+    height: 100%;
     align-items: center;
 }
 
@@ -119,8 +120,8 @@ aside ul li{
 }
 
 aside ul img{
-    width: 15vw;
-    height: 20vh;
+    width: 80%;
+    height: 100%;
 }
 
 aside ul a{
@@ -148,64 +149,72 @@ main section h2{
     margin: 1%;
     font-size: 30px;
     width: 40vw;
+    white-space: nowrap;
     height: 6vh;
 }
 
 main section div{
     display: flex;
-    width: 70vw;
+    width: 100%;
     height: 60vh;
 }
 
 main section p{
-    display: flex;
-    font-size: 22px;
+    text-align: justify;
+    font-size: 15px;
     margin: 10px;
-    margin-top: 20px;
-    text-align: start;  
-    width: 35vw;
-    height: 50vh;
+    margin-left: 5%;
+    margin-top: 20px; 
+    width: 70%;
+    height: 60vh;
 }
 
-main section article{
+main section div div{
+    display: inline;
     align-items: center;
     border-left: 1px dotted gray;
     padding-left: 10px;
     text-align: justify;
     margin-left: 25px;
-    display: flex;
-    width: 20vw;
-    height: 20vh;
+    display: block;
+    max-width: 30%;
+    height: 50%;
 }
 
-main section article p{
+#textCadrastro{
     text-align: justify;
-    font-size: 15px;
-    width: 15vw;
-    height: 10vh;
+    font-size: 1.5vw;
+    max-width: 15vw;
+    max-height: 10vh;
+    margin-top: 10%;
+    margin-bottom: 2vw;
 }
 
-main section article a{
+section button{
+    font-size: 80%;
+    cursor: pointer;
     text-decoration: none;
     background-color: rgb(72, 107, 117);
     color: white;
-    padding: 10px;
-    padding-top: 5px;
-    margin-left: 40%;
-    padding-bottom: 5px;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     border-radius: 10px;
     border: 1px black;
+    background-repeat: no-repeat;
+    white-space: nowrap;
 }
 
-main section article a:hover{
+main section a:hover{
     background-color: rgb(25, 136, 104);
     color: white;
 }
 
-main section article div{
+main section div div{
     width: 30vw;
     height: 20vh;
-    display: block;
 }
 
 footer{
