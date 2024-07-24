@@ -5,37 +5,69 @@ body{
     height: 100vh;
 }
 
-
 header, footer{
-    background-color: black;
     color: white;
     width: 98,9vw;
     height: 20vh;
     clear: both;
 }
 
+footer{
+    background-color: black;
+}
+
 header{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a4f2faf-7d57-48f8-8b4e-ea655774db6b/ddrfu5v-8497eeac-ad03-4abf-957a-63159599231e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdhNGYyZmFmLTdkNTctNDhmOC04YjRlLWVhNjU1Nzc0ZGI2YlwvZGRyZnU1di04NDk3ZWVhYy1hZDAzLTRhYmYtOTU3YS02MzE1OTU5OTIzMWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SbdmPxKow9FRyC7SIOIuyFJIYM7go6XiJjAu4L0wRaU);
+    background-position-x: center;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    -webkit-backdrop-filter: blur(10%);
+    overflow: hidden;
+    background-size: 999px;
     height: 20vh;
     display: flex;
     text-align: center;
     align-items: center;
 }
 
+#d1{
+    display: block;
+    width: 80%;
+    height: 100%;
+}
+
+#d2{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+}
+
+#d2 img{
+    width: 70px;
+    height: 70px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 100%;    
+    padding: 10px;
+}
 
 header h1{
     white-space: nowrap;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    font-size: 250%;
+    font-size: 300%;
     margin: 0%;
     width: 30vw;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 header nav{
     position: relative;
-    width: 80vw;
+    width: 100%;
     display: flex;
-    height: 20vh;
+    height: 54%;
     align-items: center;
 }
 
@@ -43,7 +75,7 @@ header nav ul{
     margin: 0%;
     margin-left: 20%;
     width: 70%;
-    height: 20vh;
+    height: 100%;
     display: flex;   
     padding: 0%;
     list-style: none;
@@ -104,6 +136,7 @@ aside{
 }
 
 aside ul{
+    position: relative;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -112,15 +145,17 @@ aside ul{
 }
 
 aside ul li{
-    margin-left: 12%;
-    margin-top: 30%;
+    margin-left: 17%;
+    margin-right: 18%;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
     display: flex;
     align-items: center;
     height: 100px;
 }
 
 aside ul img{
-    width: 80%;
+    width: 100%;
     height: 100%;
 }
 
@@ -147,7 +182,7 @@ main section{
 main section h2{
     align-items: start;
     margin: 1%;
-    font-size: 30px;
+    font-size: 20px;
     width: 40vw;
     white-space: nowrap;
     height: 6vh;
@@ -161,7 +196,7 @@ main section div{
 
 main section p{
     text-align: justify;
-    font-size: 15px;
+    font-size: 19px;
     margin: 10px;
     margin-left: 5%;
     margin-top: 20px; 
@@ -169,25 +204,12 @@ main section p{
     height: 60vh;
 }
 
-main section div div{
-    display: inline;
-    align-items: center;
-    border-left: 1px dotted gray;
-    padding-left: 10px;
-    text-align: justify;
-    margin-left: 25px;
-    display: block;
-    max-width: 30%;
-    height: 50%;
-}
-
 #textCadrastro{
     text-align: justify;
-    font-size: 1.5vw;
+    font-size: 100%;
     max-width: 15vw;
-    max-height: 10vh;
+    max-height: 15vh;
     margin-top: 10%;
-    margin-bottom: 2vw;
 }
 
 section button{
@@ -196,25 +218,25 @@ section button{
     text-decoration: none;
     background-color: rgb(72, 107, 117);
     color: white;
-    margin-left: 20%;
-    margin-top: 50px;
+    margin-right: 10%;
     padding: 8%;
     padding-top: 2%;
     padding-bottom: 2%;
     border-radius: 10px;
     border: 1px black;
-    background-repeat: no-repeat;
-    white-space: nowrap;
 }
 
-main section a:hover{
+main section button:hover{
     background-color: rgb(25, 136, 104);
     color: white;
 }
 
-main section div div{
+main section div article{
+    align-items: start;
+    border-left: 1px solid rgb(72, 107, 117);
+    display: inline;
     width: 30vw;
-    height: 20vh;
+    height: 50vh;
 }
 
 footer{
