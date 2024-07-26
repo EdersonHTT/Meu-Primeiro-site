@@ -17,12 +17,12 @@ footer{
 }
 
 header{
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a4f2faf-7d57-48f8-8b4e-ea655774db6b/ddrfu5v-8497eeac-ad03-4abf-957a-63159599231e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdhNGYyZmFmLTdkNTctNDhmOC04YjRlLWVhNjU1Nzc0ZGI2YlwvZGRyZnU1di04NDk3ZWVhYy1hZDAzLTRhYmYtOTU3YS02MzE1OTU5OTIzMWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SbdmPxKow9FRyC7SIOIuyFJIYM7go6XiJjAu4L0wRaU);
+    background-image: url(https://cdn.mos.cms.futurecdn.net/eYPT3ANBuRNcNYdDKdYuJg-1200-80.jpg);
     background-position-x: center;
     background-position-y: 20%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20vh;
+    height: 30vh;
     display: block;
     text-align: center;
     align-items: center;
@@ -31,11 +31,15 @@ header{
 header div{
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(1px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #d1{
     display: flex;
+    flex-direction:row;
+    justify-content: start;
     width: 100%;
     height: 70%;
     align-items: center;
@@ -51,10 +55,10 @@ header div{
 }
 
 #d1 img{
-    width: 20px;
-    height: 20px;
-    background-color: rgb(153, 0, 255);
-    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 100%;    
     padding: 10px;
     margin-right: 5px;
@@ -63,7 +67,7 @@ header div{
 
 #d1 img:hover{
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 100%;  
     cursor: pointer;
 }
@@ -82,7 +86,7 @@ header h1{
     margin: 0%;
     margin-top: 4%;
     margin-left: 05%;
-    margin-right: 53%;
+    margin-right: 50%;
     width: 30vw;
     -webkit-text-stroke: 0.1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
@@ -93,48 +97,39 @@ header nav{
     width: 100%;
     display: flex;
     height: 100%;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: end;
 }
 
 header nav ul{
     margin: 0%;
-    margin-left: 51%;
-    width: 70%;
+    width: 50%;
     height: 100%;
     display: flex;   
     padding: 0%;
     list-style: none;
     align-items: end;
+    justify-content: flex-start;
 }
 
 header nav li{
     width: 10vw;
     padding: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 
 #nav1{
-    margin-left: 0.2%;
     border-top-left-radius: 5px;
 }
 
-#nav2{
-    margin-left: 0.2%;
-}
-
-#nav3{
-    margin-left: 0.2%;
-}
-
 #nav4{
-    margin-left: 0.2%;
     border-top-right-radius: 5px;
 }
 
 header a{
     text-decoration: none;
-    background-color: rgb(153, 0, 255);
+    background-color: rgb(32, 32, 32);
 }
 
 header nav a:hover{
@@ -145,13 +140,16 @@ header nav a:hover{
     padding-bottom: 10px;
     background-color: white;
     border: none;
+    li{
+    color: black;
+    }
 }
 
 aside{
-    background-image: url(https://media.istockphoto.com/vectors/vector-seamless-pattern-background-icon-vector-id1170275727?k=6&m=1170275727&s=612x612&w=0&h=GrMw64_iHMm-ectfliHlneMSb7eNoYFfuw81VPqfG94=);
-    background-size: 170px;
-    width: 20%;
-    height: 225vh;
+    background-image: url(https://st4.depositphotos.com/22719282/39383/i/450/depositphotos_393831540-stock-illustration-video-game-controller-gamepad-background.jpg);
+    background-size: 200px;
+    width: 25%;
+    height: 300vh;
     float: left;
     display: flex;
     position: relative;
@@ -164,6 +162,9 @@ aside ul{
 
 aside ul{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -173,139 +174,214 @@ aside ul{
 
 aside ul li{
     margin: 5%;
-    margin-top: 160px;
-    margin-bottom: 10%;
     display: block;
     align-items: center;
     width: 90%;
-    height: 17%;
-    background-color: black;
+    height: 15%;
+    background-color: rgb(46, 46, 46);
     text-align: center;
 }
 
 aside ul img{
     width: 100%;
-    height: 90%;
+    height: 80%;
 }
 
 aside ul a{
+    display: block;
     font-size: 120%;
-    color: rgb(153, 0, 255);
+    margin-top: 6%;
+    color: rgb(68, 65, 255);
 }
 
 main{
-    width: 80%;
-    height: 225vh;
+    width: 75%;
+    height: 300vh;
     float: left;
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    align-content: space-around;
 }
 
 main section{
+    display: flex;
     position: relative;
     align-items: center;
-    width: 98%;
-    height: 40vh;
-    margin-top: 0%;
-    margin-left: 2%;
+    width: 100%;
+    height: 250px;
 }
 
 section article{
-    width: 50%;
+    background-color: rgb(32, 32, 32);
+    width: 48%;
     height: 100%;
     margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.esqueda{
+    justify-content: start;
+}
+
+.direita{
+    justify-content: end;
 }
 
 main section h2{
-    align-items: start;
-    margin: 1%;
-    margin-left: 27%;
+    display: flex;
+    align-items: center;
+    margin: 0%;
     margin-bottom: 5%;
     font-size: 30px;
-    width: 40vw;
+    width: auto;
     white-space: nowrap;
-    height: 6vh;
+    height: 35vh;
 }
 
 main section div{
     display: flex;
+    align-items: center;
+    justify-content: end;
     width: 100%;
     height: 80%;
-}
-
-main section p{
-    text-align: justify;
-    font-size: 19px;
-    margin: 10px;
-    width: 50%;
-    height: 100%;
-}
-
-#sec1{
-    display: block;
     p{
-        margin-left: 20px;
+        margin-right: 7%;
     }
 }
 
-#sec2{
-    margin-top: 10%;
+main section p{
     display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 25px;
+    margin: 10px;
+    width: 35%;
+    height: 50%;
+}
+
+#sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+}
+
+#sec2{
+    display: flex;
+    justify-content: start;
     p{
-        margin-right: 20px;
+        margin-left: 7%;  
+    }
+    article{
+        padding-right: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 }
 
 #sec3{
     display: flex;
+    justify-content: end;
     p{
-        margin-left: 20px;
+        margin-right: 7%;
+    }
+    article{
+        padding-left: 2%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 }
 
 #sec4{
     display: flex;
+    justify-content: start;
     p{
-        margin-right: 20px;
+        margin-left: 7%;
+    }
+    article{
+        padding-right: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 }
 
 #sec5{
-    background-image: url(https://tekimobile.com/wp-content/uploads/2020/08/1551472866_2_story.jpg);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f208a0b1-b95d-4e18-9279-dc040bc0300c/d6zy5m0-8cf85eaf-2d93-4725-b6ad-171adb19e8ad.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YyMDhhMGIxLWI5NWQtNGUxOC05Mjc5LWRjMDQwYmMwMzAwY1wvZDZ6eTVtMC04Y2Y4NWVhZi0yZDkzLTQ3MjUtYjZhZC0xNzFhZGIxOWU4YWQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sATYmipo0uzS0s8sZ7ZaqKFj_N-yj2Z2zSHOIwpZZd4);
     background-size: 1100px;
-    background-color: black;
     background-position-x: center;
     background-repeat: no-repeat;
     display: flex;
+    align-items: center;
+    justify-content: center;
     border-top: 2px solid black;
     margin: 0%;
     width: 100%;
-    height: 25%;
-    p{
-        margin-left: 20px;
+    height: 300px;
+    article{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        width: 45%;
+        background-color: transparent;
     }
 }
 
 section img{
     width: 80%;
     height: 80%;
+    border-radius: 10px;
 }
 
 #cadastro{
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(1px);
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60%;
+    height: 80%;
+}
+
+#cadastro a{
+    width: 65%;
+}
+
+#Mario{
+    background-color: none;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    height: 70%;
+
 }
 
 #textCadrastro{
-    width: 30%;
-    height: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    width: 40%;
+    height: 60%;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 section button{
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
-    background-color: rgb(153, 0, 255);
+    background-color: rgb(107, 107, 107);
     color: white;
     margin-right: 10%;
     padding: 15px;
@@ -313,22 +389,28 @@ section button{
     padding-bottom: 5px;
     border-radius: 10px;
     border: 1px black;
+    width: 100%;
+    height: 100%;
 }
 
 main section button:hover{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(153, 0, 255);
-    color: rgb(153, 0, 255);
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding: 13px;
     padding-top: 3px;
     padding-bottom: 3px;
 }
 
 main section div article{
-    background-color: rgb(153, 0, 255);
-    align-items: start;
-    width: 30vw;
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+    width: 48%;
     height: 100%;
+    margin: 0;
+    padding-left: 2%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 footer{
