@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+}
+
+main section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/jogos.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    width: 35%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(4px);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+form *{
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form ul{
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: rgb(51, 51, 51);
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+form li{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 80%;
+}
+
+div{
+    width: 85%;
+    display: flex;
+}
+
+div input{
+    width: 50%;
+    padding: 10px;
+    border: none;
+
+}
+
+#confirm{
+    border-bottom-left-radius: 20px;
+}
+
+#reset{
+    border-bottom-right-radius: 20px;
+}
