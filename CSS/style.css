@@ -146,7 +146,7 @@ header nav a:hover{
 }
 
 aside{
-    background-image: url(https://st4.depositphotos.com/22719282/39383/i/450/depositphotos_393831540-stock-illustration-video-game-controller-gamepad-background.jpg);
+    background-image: url(../img/controles.jpg);
     background-size: 200px;
     width: 25%;
     height: 300vh;
@@ -311,7 +311,7 @@ main section p{
 }
 
 #sec5{
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f208a0b1-b95d-4e18-9279-dc040bc0300c/d6zy5m0-8cf85eaf-2d93-4725-b6ad-171adb19e8ad.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YyMDhhMGIxLWI5NWQtNGUxOC05Mjc5LWRjMDQwYmMwMzAwY1wvZDZ6eTVtMC04Y2Y4NWVhZi0yZDkzLTQ3MjUtYjZhZC0xNzFhZGIxOWU4YWQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sATYmipo0uzS0s8sZ7ZaqKFj_N-yj2Z2zSHOIwpZZd4);
+    background-image: url(../img/zelda-e-amigos.jpg);
     background-size: 1100px;
     background-position-x: center;
     background-repeat: no-repeat;
