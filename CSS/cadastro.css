@@ -37,15 +37,16 @@ main section{
 }
 
 form{
-    width: 35%;
+    width: 31vw;
+    min-width: 340px;
     height: 75%;
     display: flex;
     flex-direction: column;
     backdrop-filter: blur(4px);
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid rgb(61, 61, 61);
 }
 
 form *{
@@ -54,7 +55,6 @@ form *{
 }
 
 form ul{
-    border-radius: 20px;
     border: 1px solid black;
     background-color: rgb(51, 51, 51);
     width: 80%;
@@ -102,21 +102,28 @@ div input{
     background-color: rgb(51, 51, 51);
 }
 
+#resetList{
+    width: 30%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
 #reset{
-    border-bottom-left-radius: 20px;
-    color: rgb(255, 139, 139);
+    font-size: 13px;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    width: 100%;
 }
 
 #confirm{
     border-bottom-right-radius: 20px;
     color: rgb(0, 175, 0);
-}
-
-#reset:hover{
-    border-bottom-left-radius: 20px;
-    color: rgb(255, 139, 139);
-    font-size: 20px;
-    border-top: 2px solid rgb(255, 139, 139);
 }
 
 #confirm:hover{
