@@ -12,14 +12,56 @@ header, footer{
     background-color: black;
     clear: both;
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
+    max-height: 500px;
     position: relative;
 }
 
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1{
+    margin: 0%;
+    margin-left: 15px;
+}
+
+header div{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    height: 100%;
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+    border: 1px;
+    background-color: white;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+header nav{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+header a{
+    text-decoration: none;
 }
 
 .container{
