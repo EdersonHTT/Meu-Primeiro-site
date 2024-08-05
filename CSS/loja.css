@@ -24,13 +24,19 @@ header{
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 531px) {
+    header{
+        height: 20%;
+    }
+}
+
 header h1{
     margin: 0%;
     margin-left: 15px;
 }
 
-header div{
-    margin-right: 15px;
+#d1{
+    margin-right: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,21 +53,37 @@ header img{
     padding: 5px;
 }
 
+#nav{
+    display: flex;  
+    justify-content: space-between;
+    width: 380px;
+    flex-wrap: nowrap;
+}
+
 header nav{
+    width: 80%;
     display: flex;
     align-items: flex-end;
-    height: 100%;
 }
 
 header ul{
     display: flex;
+    justify-content: space-around;
     list-style: none;
     margin: 0%;
     padding: 0%;
 }
 
 header a{
+    border-bottom: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
     text-decoration: none;
+}
+
+header a:hover{
+    border-color: blue;
 }
 
 .container{
@@ -89,6 +111,7 @@ main{
 main section{
     display: flex;
     flex-direction: column;  
+    position: relative;
     align-items: center;
 }
 
@@ -102,6 +125,7 @@ main section h2{
 .jogo{
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
     position: relative;
     max-width: 200px;
     flex-shrink: 150px;
@@ -124,4 +148,5 @@ img{
 
 footer{
     height: 10vh;
+    position: relative;
 }
